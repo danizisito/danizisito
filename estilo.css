@@ -1,5 +1,17 @@
 body {
     background-image: url("fondoLegit.jpg");
     background-size: cover; 
-    background-position: center center; /* Centra la imagen */
-    background-attachment: fixed;}
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.roboto-letra {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+}
