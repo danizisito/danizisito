@@ -1,17 +1,35 @@
+/* Body */
+
 body {
+    font-family: "Roboto", sans-serif;
     background-image: url("fondoLegit.jpg");
     background-size: cover; 
-    background-repeat: no-repeat;
     height: 60vh;
     display: flex; 
     justify-content: center; 
     align-items: center; 
 }
+
+/* Clases de texto */
+
+.a  {
+  font-size: 25px;
+  text-align: center;
+}
+.b {
+  font-size:15px;
+}
+.textoNegro{
+  font-weight: bold;
+}
+
 .roboto-letra {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  font-size: 30px;
   text-align: center;
 }
+
