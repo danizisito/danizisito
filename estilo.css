@@ -3,5 +3,5 @@
     height: 100px;
     background-image: url("https://img.freepik.com/vector-premium/fondo-abstracto-presentacion-concepto-negocio-formas-geometricas_573652-1376.jpg?w=1800"); 
     background-size: cover; 
-    background-position: center center; /* Centra la imagen */
+    background-position: center center; 
     background-attachment: fixed;}
