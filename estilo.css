@@ -1,7 +1,5 @@
-.a { background-color: RGB(39, 228, 245); }
-.cta-container {
-    height: 100px;
-    background-image: url("https://img.freepik.com/vector-premium/fondo-abstracto-presentacion-concepto-negocio-formas-geometricas_573652-1376.jpg?w=1800"); 
+body {
+    background-image: url("fondoLegit.jpg");
     background-size: cover; 
-    background-position: center center; 
+    background-position: center center; /* Centra la imagen */
     background-attachment: fixed;}
