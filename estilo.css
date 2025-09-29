@@ -1,5 +1,4 @@
 /* Body */
-
 body {
     font-family: "Roboto", sans-serif;
     background-image: url("fondoLegit.jpg");
@@ -7,29 +6,64 @@ body {
     height: 60vh;
     display: flex; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
+    padding-top: 100px;      
 }
 
-/* Clases de texto */
-
-.a  {
-  font-size: 25px;
-  text-align: center;
+/* Estilo para algunos textos */
+.a {
+    font-size: 25px;
+    text-align: center; 
+    margin-bottom: 10px; 
 }
+
+/* Estilo para algunos textos */
 .b {
-  font-size:15px;
-}
-.textoNegro{
-  font-weight: bold;
+    font-size: 15px;
 }
 
-.roboto-letra {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-size: 30px;
-  text-align: center;
+/* Texto en negrita dentro */
+.textoNegrita {
+    font-weight: bold;
 }
+
+/* Contenedor principal de los bloques */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 10px;
+}
+
+/* Bloques de información */
+.clasesDiv {
+    background-color: #3b82f6; 
+    color: white;
+    flex: 1; 
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;           
+    flex-direction: column;  
+}
+
+/* Clase para que los títulos que contengan la clase "a"  estén bien alineados */
+.clasesDiv h2.a {
+    text-align: left;      
+    margin-left: 65px;     
+}
+
+/* Tipo de letra principal h1 */
+.roboto-letra {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 30px;
+    text-align: center;
+}
+
 
