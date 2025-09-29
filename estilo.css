@@ -40,7 +40,6 @@ body {
 .clasesDiv {
     background-color: #3b82f6; 
     color: white;
-    flex: 1; 
     max-width: 300px;
     padding: 20px;
     border-radius: 12px;
